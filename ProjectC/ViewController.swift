@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func updateAction(sender: AnyObject) {
+    @IBAction func updateAction(_ sender: AnyObject) {
         self.imageView.image = UIImage.imageWithColor(UIColor.randomColor)
     }
 
